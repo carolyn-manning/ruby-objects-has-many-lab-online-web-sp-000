@@ -23,4 +23,6 @@ class Artist
     Song.all.size
   end
 
+
+
 end
