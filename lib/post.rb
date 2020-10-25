@@ -1,4 +1,10 @@
 class Post
 
+  @@all= []
 
-end 
+  def initialize(title)
+    @title = title
+    @@all << self
+
+
+end
